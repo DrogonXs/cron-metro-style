@@ -1,0 +1,124 @@
+@charset "utf-8";
+
+body{
+    text-align: center;
+    background-image:url(time.jpg) ;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+h1{
+    font-family: "celtic";
+    color: red;
+    text-shadow: 2px 4px 1px rgb(0, 0, 0);
+    
+}
+
+p{
+    font-family: "greek";
+    color: red;
+    box-shadow: 0 2px 4px 1px rgb(0, 0, 0);
+    font-size:40px;
+    text-shadow: 2px 4px 1px rgb(0, 0, 0);
+}
+
+
+.cronometro{
+    max-width: 360px;
+   background-image:url(space.png);
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 2px 4px 1px;
+}
+
+
+
+#button-start{
+    width: calc(25% - 12px);
+    height: 50px;
+    font-size: 20px;
+    margin: 15px 25px;
+    border: none;
+    border-radius: 5px;
+    float: left;
+    background-color: skyblue;
+    color: rgb(0, 0, 0);
+    box-shadow: 1px 1px 20px -3px black;
+    font-family: "greek";
+    
+    
+}
+
+#button-stop{
+    width: calc(25% - 12px);
+    height: 50px;
+    font-size: 20px;
+    margin: 20px 155px;
+    border: none;
+    border-radius: 5px;
+    float: left;
+    background-color: skyblue;
+    color: rgb(0, 0, 0);
+    box-shadow: 1px 1px 20px -3px black;
+    font-family: "greek";
+   
+}
+
+#button-reset{
+    width: calc(25% - 12px);
+    height: 50px;
+    font-size: 20px;
+    margin: 20px 25px;
+    border: none;
+    border-radius: 5px;
+    float: left;
+    background-color: skyblue;
+    color: rgb(0, 0, 0);
+    box-shadow: 1px 1px 20px -3px black;
+    font-family: "greek";
+    
+    
+}
+
+#seconds{
+    font-size: 30px;
+    box-shadow: 1px 1px 20px -3px black;
+    color: yellow;
+}
+
+#tens{
+    font-size: 30px;
+    box-shadow: 1px 1px 20px -3px black;
+    color: yellow;
+}
+
+
+
+
+
+
+
+
+@font-face{
+    font-family: 'celtic';
+    src: url(celticmd.ttf) format("opentype"),url(celticmd.ttf)
+    format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: 'greek';
+    src: url(Greconian.ttf) format("opentype"),url(Greconian.ttf)
+    format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+
